@@ -31,7 +31,7 @@ link_directories(${CMAKE_CURRENT_SOURCE_DIR}/libs)
 
 #### Additional settings for programmer. From programmers.txt
 set(${PROJECT_NAME}_PROGRAMMER usbtinyisp)
-set(${PROJECT_NAME}_PORT COM5)
+set(${PROJECT_NAME}_PORT COM7)
 set(uno.upload.speed 9600)
 
 ## Verbose build process
